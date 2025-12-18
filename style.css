@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+.top-head {
+    background-color: #bb7eee;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.top-text {
+    align-items: center;
+    font-family: "Prompt", sans-serif;
+    display: flex;
+}
+
+#line-button {
+    background-color: #bb7eee;
+    border: none;
+}
+
+nav {
+    position: relative;
+    top: 20px;
+    font-family: "Prompt", sans-serif;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* ตัวอย่างร้านค้า */
+#content-tutorial {
+    display: flex;
+   
+    
+}
+#shop { 
+    position: relative;
+    left: 110px;
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 200px;
+    height: 200px;
+    border: solid;
+    border-radius: 10px;
+    display: grid; 
+    grid-template-columns: 1fr  ;
+    display: inline-block;
+      font-family: "Prompt", sans-serif;
+   
+}
+
+/* เพิ่มเติม */
+#more {
+    position: absolute;
+    right: 10px;
+     height: 14px;
+     border-radius: 10px;
+     padding: 10px;
+     background-color: #8a2be2;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+     overflow: hidden;
+}
+
+#more:hover {
+    height: 100vh;
+}
+
+/* หมวดหมู่ */
+.top-menu {
+    border: solid;
+    border-radius:10px;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+    border-color:  #bb7eee;
+    color:  #bb7eee;
+}
+
+/* ปุ่มซื้อ */
+#buy-btn {
+    position: relative;
+    top: 30px;
+    background-color: rgb(65, 173, 250);
+    border-radius: 10px;
+    color: azure;
+    border: none;
+    margin: 0 auto; 
+   right: 30px;
+}
+#buy-btn:hover {
+    transform: scale(1.1);
+    background-color: blue;
+    transition: .3s;
+}
+
+/* เพิ่มเข้าตะกร้า */
+#basket-btn {
+   position: relative;
+    top: 30px;
+    background-color: rgb(65, 173, 250);
+    border-radius: 10px;
+    color: azure;
+    border: none;
+    margin: 0 auto; 
+    text-align: center;
+     right: 30px;
+}
+
+#basket-btn {
+     transform: scale(1.1);
+    background-color: blue;
+    transition: .3s;
+}
+.text {
+    position: relative;
+    left: 50px;
+}
+
+
+
+ .img {
+    border-radius: 10px;
+ }
+
+ .price {
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+     font-family: "Prompt", sans-serif;
+     color: red;
+     margin-left: 30%;
+     margin-top: 10px;
+ }
+
+ #about {
+    display: inline-block;
+ background-color: #8a2be2;
+ min-height: 100vh;
+ }
+
+ 
