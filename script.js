@@ -1,5 +1,5 @@
 
-        fetch("https://app.mediafire.com/folder/myfiles")
+        fetch("https://www.minecraft.net/en-us/marketplace")
             .then(res => res.json())
             .then(data => {
                 console.log(data);
