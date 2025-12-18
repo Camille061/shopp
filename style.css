@@ -12,6 +12,7 @@ li {
 
 body {
     background-color: rgb(255, 255, 255);
+    font-family: "Prompt", sans-serif;
 }
 .top-head {
     background-color: #bb7eee;
@@ -37,18 +38,21 @@ nav {
     font-family: "Prompt", sans-serif;
     margin: 0 auto;
     text-align: center;
+
+    
 }
 
 /* ตัวอย่างร้านค้า */
 #content-tutorial {
     display: flex;
+    text-align: center;
    
     
 }
 #shop { 
     position: relative;
     margin-top: 20px;
-    margin-left: 10px;
+    margin-left: 1px;
     width: 200px;
     height: 200px;
     border: solid;
@@ -57,6 +61,7 @@ nav {
     grid-template-columns: 1fr  ;
     display: inline-block;
       font-family: "Prompt", sans-serif;
+      
    
 }
 
@@ -157,7 +162,7 @@ nav {
 
 /* git init
 git add .
-git commit -m "first commit"
+git commit -m "remove margin left"
 git branch -M main
 git remote add origin https://github.com/Camille061/shopp.git
 git push -u origin main */
