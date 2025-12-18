@@ -53,8 +53,8 @@ nav {
     position: relative;
     margin-top: 20px;
     margin-left: 1px;
-    width: 200px;
-    height: 200px;
+    width: 170px;
+    height: 210px;
     border: solid;
     border-radius: 10px;
     display: grid; 
@@ -119,8 +119,8 @@ nav {
     color: azure;
     border: none;
     margin: 0 auto; 
-    text-align: center;
-     right: 30px;
+    left: 50px;
+   
 }
 
 #basket-btn:hover {
@@ -162,7 +162,7 @@ nav {
 
 /* git init
 git add .
-git commit -m "remove margin left"
+git commit -m "responsive"
 git branch -M main
 git remote add origin https://github.com/Camille061/shopp.git
 git push -u origin main */
