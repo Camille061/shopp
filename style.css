@@ -102,7 +102,7 @@ nav {
     color: azure;
     border: none;
     margin: 0 auto; 
-   right: 30px;
+   right: 22px;
 }
 #buy-btn:hover {
     transform: scale(1.1);
@@ -119,7 +119,7 @@ nav {
     color: azure;
     border: none;
     margin: 0 auto; 
-    left: 50px;
+    left: 60px;
    
 }
 
@@ -132,7 +132,7 @@ nav {
 
 .text {
     position: relative;
-    left: 50px;
+    left: 47px;
 }
 
 
@@ -147,7 +147,7 @@ nav {
     font-size: large;
      font-family: "Prompt", sans-serif;
      color: red;
-     margin-left: 30%;
+     margin-left: 25%;
      margin-top: 10px;
  }
 
