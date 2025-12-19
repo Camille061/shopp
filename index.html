@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Example</title>
     <link rel="stylesheet" href="style.css">
-
+        <!-- ส่วนหัว -->
     <div class="top-head">
         <div class="top-text">
             <button id="line-button">
@@ -19,7 +19,7 @@
 
 
 </head>
-
+<!-- เมนู -->
 <nav>
     <div class="top-menu">
         <li id="home">
@@ -39,7 +39,7 @@
 </nav>
 
 <body>
-
+    <!-- เนื้อหา -->
     <div id="Content-tutorial">
 
         <div id="shop">
@@ -202,6 +202,12 @@
         const MedecinePage = document.getElementById("medicine")
         const BuyButton = document.getElementById("buy-btn")
 
+
+        
+        BuyButton.onclick = () => {
+         window.location.href = "buy.html"
+        }
+
         HomePage.onclick = () => {
             alert("ยังไม่ได้ทำ")
         }
@@ -215,10 +221,7 @@
             alert("ยังไม่ได้ทำ")
         }
 
-        BuyButton.onclick = () => {
-            window.location.href = "buy.html"
-        }
-
+   
 
 
     </script>

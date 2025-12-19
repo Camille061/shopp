@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+@media (max-width: 304px) {
+    #image-buy {
+        width: 250px;
+    }
+
+    #buy-contrainer{
+        max-width: 50%;
+    }
+}
+    
 * {
     padding: 0;
     margin: 0;
@@ -129,7 +139,7 @@ nav {
     transition: .3s;
 }
 
-
+/* ข้อความ */
 .text {
     position: relative;
     left: 47px;
@@ -140,7 +150,7 @@ nav {
  .img {
     border-radius: 10px;
  }
-
+    /* ราคา */
  .price {
     text-align: center;
     font-weight: bold;
@@ -157,7 +167,56 @@ nav {
  min-height: 100vh;
  }
 
+ /* สินค้า contrainer   */
+ #buy-contrainer {
+    position: relative;
+    top: 20px;
+    border: solid;
+    border-radius: 10px;
+    max-width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    height: 500px;
+ }
 
+ /* รูปสินค้าที่สั่ง */
+ #image-buy {
+border-radius: 10px;
+ }
+
+  /* ปุ่มยืนยันการสั่งซื้อ */
+ #buy-confirm {
+    border-radius: 10px;
+    border: none;
+    background-color: #2fff47;
+    padding: 10px;
+    margin-top: 20px;
+    color: #ffffff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+ }
+   
+  #buy-confirm:hover {
+    transform: scale(1.1);
+    background-color:  #1dc130;
+    transition: .3s;
+  }
+  /* ปุ่มสีแดง */
+  .button {
+     border-radius: 10px;
+    border: none;
+    background-color: #ff3434;
+    padding: 10px;
+    margin-top: 10px;
+    color:  #ffffff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+
+  .button:hover {
+     transform: scale(1.1);
+    background-color:   #da2828;
+    transition: .3s;
+  }
 
 
 /* git init
