@@ -32,17 +32,34 @@
 
         </div>
     </div>
-
+    <label style=" margin-left: 10px;" for="money">ใส่จำนวนเงิน</label>
+    <input style="margin-top: 30px; margin-left: 10px;" type="text" name="" id="money" value="20" size="2"> บาท
     <script>
-         const ConfirmButton = document.getElementById("buy-confirm")
+        let money = document.getElementById('money')
+        const ConfirmButton = document.getElementById("buy-confirm")
         const Cancel = document.getElementById("button-red")
-        
+
+        // alertข้อความ
+        let ReturnConfirmButton = [
+            "ซื้อสินค้าสำเร็จ✅",
+            "ยกเลิกการซื้อ❌",
+            "เงินไม่พอ"
+        ]
+
         // ยืนยันการซื้อ
-        ConfirmButton.onclick = () =>{
-            alert("ซื้อสินต้าสำเร็จ")
+        ConfirmButton.onclick = () => {
+            if (money.value < 2000) {
+                alert(ReturnConfirmButton[2])
+            } else {
+                alert(ReturnConfirmButton[0])
+                  setTimeout(() => {
+                    window.location.href = "index.html"
+                }, 1000);
+            }
         }
-         // ยกเลิกการซื้อ
+        // ยกเลิกการซื้อ
         Cancel.onclick = () => {
+            alert(ReturnConfirmButton[1])
             window.location.href = "index.html"
         }
     </script>
