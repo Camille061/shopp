@@ -1,0 +1,27 @@
+{
+  "name": "shop",
+  "version": "1.0.0",
+  "description": "test shop",
+  "homepage": "https://github.com/Camille061/shopp#readme",
+  "bugs": {
+    "url": "https://github.com/Camille061/shopp/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Camille061/shopp.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}

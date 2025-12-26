@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 
-     <!-- ส่วนหัว -->
+    <!-- ส่วนหัว -->
     <div class="top-head">
         <div class="top-text">
             <button id="line-button">
@@ -20,16 +21,31 @@
 
 <body>
     <div style="text-align: center;">
-    <div id="buy-contrainer">
-        <img id="image-buy" width="300px" height="300px" src="https://cdn.britannica.com/77/170477-050-1C747EE3/Laptop-computer.jpg" alt=""> <br>
-        <span style="color: red; font-size: large; font-weight: bold;">2,000 บาท</span> <br>
-        <span  style="font-size: large;">Notebook</span> <br>
-        <span style="margin-top: 10px;">ยืนยันการสั่งซื้อสินค้าของคุณหรือไม่</span>  <br>
-        <button id="buy-confirm">ยืนยันการสั่งซื้อ</button> 
-        <button style="margin-left: 10px;" class="button">ยกเลิก</button>
-        
+        <div id="buy-contrainer">
+            <img id="image-buy" width="300px" height="300px"
+                src="https://cdn.britannica.com/77/170477-050-1C747EE3/Laptop-computer.jpg" alt=""> <br>
+            <span style="color: red; font-size: large; font-weight: bold;">2,000 บาท</span> <br>
+            <span style="font-size: large;">Notebook</span> <br>
+            <span style="margin-top: 10px;">ยืนยันการสั่งซื้อสินค้าของคุณหรือไม่</span> <br>
+            <button id="buy-confirm">ยืนยันการสั่งซื้อ</button>
+            <button id="button-red" style="margin-left: 10px;">ยกเลิก</button>
+
+        </div>
     </div>
-</div>
-    
+
+    <script>
+         const ConfirmButton = document.getElementById("buy-confirm")
+        const Cancel = document.getElementById("button-red")
+        
+        // ยืนยันการซื้อ
+        ConfirmButton.onclick = () =>{
+            alert("ซื้อสินต้าสำเร็จ")
+        }
+         // ยกเลิกการซื้อ
+        Cancel.onclick = () => {
+            window.location.href = "index.html"
+        }
+    </script>
 </body>
+
 </html>

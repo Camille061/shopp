@@ -202,7 +202,7 @@ border-radius: 10px;
     transition: .3s;
   }
   /* ปุ่มสีแดง */
-  .button {
+  #button-red {
      border-radius: 10px;
     border: none;
     background-color: #ff3434;
@@ -212,7 +212,7 @@ border-radius: 10px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   }
 
-  .button:hover {
+  #button-red:hover {
      transform: scale(1.1);
     background-color:   #da2828;
     transition: .3s;
